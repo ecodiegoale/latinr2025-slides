@@ -1,8 +1,6 @@
 # LatinR 2025 – Slides (código fuente)
 
-Este repositorio contiene el **código fuente** de la charla presentada en **LatinR 2025**, el 5 de diciembre de 2025, elaborada en **R Markdown**, junto con los archivos necesarios para reproducir el estilo visual (tema, logos e imágenes).
-
-La versión aquí compartida corresponde específicamente a la presentación realizada en LatinR 2025.
+Este repositorio contiene el **código fuente** de la charla presentada en **LatinR 2025**, el 5 de diciembre de 2025 ([enlace al programa](https://latinr.org/cronograma/programa/)), elaborada en **R Markdown**, junto con los archivos necesarios para reproducir el estilo visual (tema, logos e imágenes).
 
 ---
 
