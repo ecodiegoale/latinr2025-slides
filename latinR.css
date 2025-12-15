@@ -1,0 +1,318 @@
+/* ----------------------------------------------------------
+   Tipografía LATINR – Open Sans
+-----------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+/* Fuente global */
+body,
+.remark-slide-content,
+.title-slide,
+.chapter-slide {
+  font-family: "Open Sans", Tahoma, sans-serif;
+  color: #000000;
+}
+
+/* ----------------------------------------------------------
+   SLIDES NORMALES
+-----------------------------------------------------------*/
+.remark-slide-content {
+  padding: 60px;
+  background-image: url('./LatinR_LOGOS-21.png'),
+                    linear-gradient(to bottom, white 90%, rgba(236, 236, 236) 100%);
+  background-position: 2% 99%, center;
+  background-size: 70px, cover;
+  font-size: 18pt;
+  overflow: visible;
+}
+
+/* Títulos normales */
+.remark-slide-content h1 {
+  color: #4C3CEB;
+  font-weight: 700;
+  font-size: 34pt;
+  margin-top: 0;
+}
+
+.remark-slide-content h2 {
+  color: #4C3CEB;
+  font-weight: 700;
+  font-size: 32pt;
+}
+
+.remark-slide-content h3 {
+  color: #4C3CEB;
+  font-weight: 700;
+  font-size: 30pt;
+}
+
+/* ----------------------------------------------------------
+   TITLE SLIDE — Portada
+-----------------------------------------------------------*/
+.title-slide {
+  position: relative;
+  background-color: white;
+  background-image: url('./LatinR_LOGOS-23.png');
+  background-repeat: no-repeat;
+  background-position: 95% 5%;
+  background-size: 300px;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.title-slide .title-main {
+  max-width: 70%;
+  text-align: left;
+}
+
+.title-slide .remark-slide-number {
+  display: none !important;
+}
+
+.title-slide h1 {
+  color: #4C3CEB;
+  font-weight: 800;
+  font-size: 40pt;
+  margin-top: 80px;
+  margin-bottom: 18px;
+}
+
+.title-slide h2 {
+  font-weight: 600;
+  color: #333333;
+  font-size: 28pt;
+  margin: 0 0 14px 0;
+}
+
+.title-slide h3 {
+  color: #4A4A4A;
+  font-size: 20pt;
+  font-weight: normal;
+  margin: 4px 0;
+  text-align: left;
+}
+
+.title-slide .title-inst {
+  color: #4A4A4A;
+  font-size: 17pt;
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+/* Header 4 para LinkedIn */
+.title-slide h4 {
+  margin-top: 40px;
+  font-size: 16pt;
+  font-weight: 600;
+  color: #4C3CEB;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-slide h4 img.linkedin-icon {
+  width: 28px;
+  height: auto;
+}
+
+/* ----------------------------------------------------------
+   CHAPTER SLIDE
+-----------------------------------------------------------*/
+.chapter-slide {
+  padding: 60px;
+  background-image: url("./LatinR_LOGOS-23.png"),
+                    linear-gradient(to bottom, #4C3CEB 1%, rgba(76, 60, 235) 95%);
+  background-position: left 20px bottom 20px, center;
+  background-size: 0px, cover;
+  box-sizing: border-box;
+}
+
+.chapter-slide h1 {
+  color: #ECECEC;
+  font-size: 34pt;
+  margin-top: 30%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.chapter-slide h2 {
+  font-size: 32pt;
+  color: #ffffff;
+}
+
+.chapter-slide .remark-slide-number {
+  display: none !important;
+}
+
+/* ----------------------------------------------------------
+   COLUMNAS
+-----------------------------------------------------------*/
+.left-column { width: 40%; float: left; margin-top: -30px; }
+.right-column { width: 58%; float: right; margin-top: -30px; }
+.pull-left { float: left; width: 47%; margin-top: -30px; }
+.pull-right { float: right; width: 47%; margin-top: -30px; }
+
+/* ----------------------------------------------------------
+   CÓDIGO (chunk + inline)
+-----------------------------------------------------------*/
+.remark-code,
+.remark-inline-code {
+  font-size: 18pt;
+}
+
+/* Consola + morado */
+.remark-code,
+.remark-inline-code {
+  font-family: "Fira Code", "Cascadia Code", "Consolas", monospace !important;
+}
+
+/* Código inline */
+.remark-inline-code {
+  color: #4C3CEB !important;
+  font-weight: 600;
+}
+
+/* Tokens resaltados (funciones, keywords, etc.) */
+.remark-code .hljs-title,
+.remark-code .hljs-built_in,
+.remark-code .hljs-function,
+.remark-code .hljs-keyword,
+.remark-code .hljs-variable,
+.remark-code .hljs-attr,
+.remark-code .hljs-operator,
+.remark-code .hljs-name {
+  color: #4C3CEB !important;
+  font-weight: 700;
+}
+
+/* ----------------------------------------------------------
+   TOC SLIDE
+-----------------------------------------------------------*/
+.toc-slide {
+  padding: 60px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.toc-slide h1 {
+  font-size: 34pt;
+  font-weight: 700;
+  color: #4C3CEB;
+  margin-top: 0;
+}
+
+.toc-slide ol {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+  counter-reset: toc-counter;
+}
+
+.toc-slide ol li {
+  counter-increment: toc-counter;
+  font-size: 24pt;
+  color: #333;
+  margin: 18px 0;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.toc-slide ol li::before {
+  content: counter(toc-counter);
+  background-color: #4C3CEB;
+  color: white;
+  font-weight: 700;
+  font-size: 18pt;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toc-slide .remark-slide-number {
+  display: none !important;
+}
+
+/* ----------------------------------------------------------
+   MAP SLIDE — versión corregida
+-----------------------------------------------------------*/
+.map-slide {
+  background-color: white !important;
+  padding: 40px 50px 50px 50px !important;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* RESET TOTAL del fondo heredado */
+.map-slide.remark-slide-content {
+  background: none !important;
+  background-color: white !important;
+  background-image: url('./LatinR_LOGOS-21.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: 2% 98% !important;
+  background-size: 70px !important;
+}
+
+.map-slide h1 {
+  text-align: center;
+  font-size: 28pt;
+  font-weight: 700;
+  color: #4C3CEB;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.map-slide h2 {
+  text-align: center;
+  font-size: 18pt;
+  font-weight: 600;
+  color: #4A4A4A;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.map-slide img {
+  display: block;
+  margin: 0 auto 10px auto;
+  width: 70%;
+  height: auto;
+  max-height: 40vh;  /* ← clave para no empujar footer */
+  object-fit: contain;
+}
+
+.map-slide .map-caption {
+  text-align: center;
+  font-size: 12pt;
+  color: #4A4A4A;
+  margin-top: 5px;
+  font-style: normal !important;
+}
+
+/* ----------------------------------------------------------
+   TWO SMALL MAPS
+-----------------------------------------------------------*/
+.two-maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.two-maps img {
+  width: 38%;
+  height: auto;
+  max-height: 45vh;
+  object-fit: contain;
+}
+
+/* ----------------------------------------------------------
+   Inline pkg (morado estilo consola)
+-----------------------------------------------------------*/
+.inline-pkg {
+  font-family: "Fira Code", "Cascadia Code", "Consolas", monospace;
+  color: #4C3CEB;
+  font-weight: 600;
+}
