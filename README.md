@@ -36,13 +36,13 @@ Los archivos gráficos se incluyen como *assets estáticos*. El objetivo del rep
 
 Por razones de confidencialidad, **no se incluyen microdatos** ni bases administrativas utilizadas en el análisis.
 
-Los resultados presentados en las diapositivas se apoyan en versiones preliminares de mi investigación que fueron publicadas en el *Informe sobre el comportamiento de la economía* correspondiente al mes de junio de 2025, elaborado por la Dirección Técnica y presentado al Consejo de Representantes de la **Comisión Nacional de los Salarios Mínimos (CONASAMI)**.
+Los resultados presentados en las diapositivas se apoyan en versiones preliminares de mi investigación que fueron publicadas en el *Informe sobre el comportamiento de la economía* correspondiente al mes de julio de 2025, elaborado por la Dirección Técnica y presentado al Consejo de Representantes de la **Comisión Nacional de los Salarios Mínimos (CONASAMI)**.
 
 Asimismo, versiones preliminares del trabajo han sido discutidas en otros espacios académicos, incluyendo el [**Congreso SobreMéxico2025**](https://sobremexico.ibero.mx/es/congreso/call-for-papers) de la Universidad Iberoamericana.
 
 Una versión preliminar del informe institucional puede consultarse en el siguiente enlace:
 
-- https://www.gob.mx/cms/uploads/attachment/file/1004508/Informe_Junio_2025.pdf
+- https://www.gob.mx/cms/uploads/attachment/file/1013236/Informe_Julio_2025.pdf
 
 Esta versión del código corresponde a la presentación realizada en **LatinR 2025**, aunque parte del trabajo ha sido discutido previamente en otros foros.
 ---
